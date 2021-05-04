@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dzulfikar\'s UsersApp</string>
+
+    <!--  String of Items  -->
+    <string name="item_user_name">%s %s </string>
+</resources>

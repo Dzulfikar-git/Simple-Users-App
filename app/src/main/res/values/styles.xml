@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/redDelete</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Body.Text" parent="MaterialAlertDialog.App.Title.Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/open_sans_semibold</item>
+    </style>
+
+    <style name="Widget.App.Button.Delete" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.Delete</item>
+    </style>
+
+    <style name="Widget.App.Button.Cancel" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.Cancel</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button.Delete" parent="">
+        <item name="colorPrimary">@color/redDelete</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button.Cancel" parent="">
+        <item name="colorPrimary">@color/primaryBlue</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+    </style>
+</resources>
