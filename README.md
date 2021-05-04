@@ -1,5 +1,5 @@
 # Simple-Users-App
-This Application allows user add other people's informations
+This Application allows user to add and manage people's informations
 
 # Features
 * Search Users
